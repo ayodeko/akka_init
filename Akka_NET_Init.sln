@@ -1,8 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka_NET_Init", "Akka_NET_Init\Akka_NET_Init.csproj", "{FFC556D0-E5F8-44B9-B197-21A82BF0DE9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaWordCounterV2", "AkkaWordCounterV2\AkkaWordCounterV2.csproj", "{730131B4-80E7-4247-A97D-28EB3DF806FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaWordCounter2.App", "AkkaWordCounter2.App\AkkaWordCounter2.App.csproj", "{FD8BC145-FACA-41D1-A021-A94CD5DA5E59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +21,9 @@ Global
 		{730131B4-80E7-4247-A97D-28EB3DF806FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{730131B4-80E7-4247-A97D-28EB3DF806FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{730131B4-80E7-4247-A97D-28EB3DF806FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8BC145-FACA-41D1-A021-A94CD5DA5E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8BC145-FACA-41D1-A021-A94CD5DA5E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8BC145-FACA-41D1-A021-A94CD5DA5E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8BC145-FACA-41D1-A021-A94CD5DA5E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

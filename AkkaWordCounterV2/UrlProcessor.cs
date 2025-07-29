@@ -35,7 +35,7 @@ public class UrlProcessor : ReceiveActor, IWithTimers
         {
             _log.Info("Processing URL: {0}", _url);
             
-            //Handle Task<T> inside actors
+            //Handle Task inside actors
             var content = await _httpClient.GetStringAsync(_url);
             var wordCounts = CountWords(content);
             
@@ -55,7 +55,7 @@ public class UrlProcessor : ReceiveActor, IWithTimers
 
     private Dictionary<string, int> CountWords(string content)
     {
-        // Simple word counting - strip HTML tags and count words
+        
         var cleanContent = Regex.Replace(content, "<[^>]*>", " ");
         var words = Regex.Split(cleanContent.ToLower(), @"\W+")
                         .Where(w => w.Length > 2)
